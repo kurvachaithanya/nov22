@@ -8,7 +8,7 @@ pipeline{
         }
         stage("build code"){
             steps{
-                println "mave"
+                println "maven"
             }
         }
         stage("upload artifacts to s3"){
